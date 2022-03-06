@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Image" representedClassName="Image" syncable="YES" codeGenerationType="class">
+        <attribute name="downloadedImage" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="PhotoSave" representedClassName="PhotoSave" syncable="YES" codeGenerationType="class">
+        <attribute name="albumId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="downloadedImage" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="largeImage" optional="YES" attributeType="Binary"/>
+        <attribute name="thumbnailUrl" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Image" positionX="-54" positionY="27" width="128" height="44"/>
+        <element name="PhotoSave" positionX="-63" positionY="-18" width="128" height="149"/>
+    </elements>
+</model>
